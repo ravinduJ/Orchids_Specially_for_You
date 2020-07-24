@@ -1,0 +1,144 @@
+/* .container.m{
+  border-color: black !important;
+  border-radius: 5px  !important;
+} */
+html{
+  scroll-behavior: smooth;
+}
+
+.header_img{
+  width: 20vh;
+  height: 20vh;
+  margin: 2px;
+  object-fit: contain;
+}
+/* navbar */
+/* .navbar{
+  background-color: #c74440 !important;
+}*/
+
+.nav-link{
+  font-size: 20px !important;
+  color: #ffff !important;
+}
+.navbar-custom {
+    background-color: #c74440 !important;
+    /* background: rgba(0, 0, 0, 0.5) !important; */
+}
+
+.bg-trans{
+  background: transparent !important;
+  background-color: red;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+/* change the link color and padding  */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    padding: .75rem 1rem;
+}
+
+/* change the color and bg color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #fc0303;
+}
+
+/* for dropdown only - change the color of droodown */
+/* .navbar-custom .dropdown-menu {
+    background-color: #ff5500;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+} */
+
+
+/* slider */
+
+
+.bg-example{
+  margin-top: -100px;
+}
+.carousel-inner img{
+  width: 100%;
+  max-height:80vh;
+  object-fit:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Quote */
+#h1font{
+  color: #7a7d7b !important;
+}
+
+/* Logo Image */
+.image1 img{
+  width: auto;
+  object-fit: contain;
+  position: relative;
+  animation: mymove 5s;
+
+}
+@keyframes mymove {
+  from {left: 250px;}
+  to {left:  0px;}
+}
+
+
+/* about us paragraph */
+.para{
+  line-height: 2.0;
+  color: #fff;
+
+}
+
+.textimg{
+  /* background-image: url('../img/background.jpg'); */
+  background-color: #c74440;
+  /* object-fit: cover; */
+  /* max-height:vh; */
+  /* height: 40vh; */
+  /* background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden; */
+}
+
+.textcol{
+  background-color: #c74440;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerstyle{
+  background-color:#242323 !important;
+  /* background-image:linear-gradient(#737373,#f2f2f2); */
+  color: #fff !important;
+}
