@@ -87,6 +87,7 @@ html{
 /* Logo Image */
 .image1 img{
   width: auto;
+  height: 55vh;
   object-fit: contain;
   position: relative;
   animation: mymove 5s;
@@ -107,7 +108,7 @@ html{
 
 .textimg{
   /* background-image: url('../img/background.jpg'); */
-  background-color: #c74440;
+  background-color: #bf0808;
   /* object-fit: cover; */
   /* max-height:vh; */
   /* height: 40vh; */
@@ -118,7 +119,7 @@ html{
 }
 
 .textcol{
-  background-color: #c74440;
+  background-color: #bf0808;
 }
 
 
